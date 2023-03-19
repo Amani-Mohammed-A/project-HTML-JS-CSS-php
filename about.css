@@ -1,0 +1,33 @@
+body{
+  font-family: Roboto;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(to top, #adc7d1,#f4f6f7);
+    background-attachment: fixed ;
+ 
+
+}
+ .about-section {
+      padding: 40px;
+      text-align:center;
+      background: #81a3b2; 
+      color: #010c0e; ;
+      color: rgba(0, 0, 0, 0.767);
+    }
+ .card-text{
+        text-align:center;
+        background: #abc2cca8;
+    }
+    
+h6{
+    color: #045266;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size:15px;
+   
+}
+.container-fluid{
+  background-color: #d6e5f3;
+
+}
+

@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: whitesmoke;
+    background-image: url(imgg.png);
+    background-size:cover;
+  
+}
+
+
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color:  #5f90a5;
+  padding: 7px 7px;
+  justify-content: baseline;
+}
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.login100-form-btn:hover {
+  color: #fff;
+}
+.login100-form-btn:hover:before {
+  opacity: 0;
+}
+body, html {
+height: 100%;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  
+}
+a {
+color: #1707ff;
+font-size: 14px;
+line-height: 1.7;
+margin: 0px;
+transition: all 0.4s;
+-webkit-transition: all 0.4s;
+-o-transition: all 0.4s;
+-moz-transition: all 0.4s;
+}
+  ul.breadcrumb {
+  padding: 6px 16px;
+  list-style: none;
+  background-color: lightgrey;
+  text-align:left;
+  width:100%;
+  margin-bottom:-3px;
+  
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 15px;
+  text-align:left;
+  }
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: ">\00a0";
+
+  
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+  
+}
+
+
+  p{
+        
+    width: 80%;
+    margin-left: 10%;
+    font-size: 1.5em;
+  }
+  table {
+    
+    border-collapse:collapse;
+    width: 80%;
+    margin-left: 10%;
+   
+  }
+
+  th {
+    text-align: left;
+    padding: 8px;
+    background-color: #5f90a5;
+    color: black;
+  }
+  
+  td {
+    text-align: left;
+    border:solid grey 1px;
+    padding: 8px;
+	width:33%;
+  }
+  
+  tr
+  {background-color: rgb(238, 237, 237);
+   border:solid 1px;
+ 	width:33%
+  }
+  
+  footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:  #5f90a5;
+    height:auto;
+    width: 100vw;
+    padding-top: 7px;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    
+}
+
+a{
+  color: #1707ff;
+  
+}
+a:hover{
+  color: #7cb7ee;
+}
+
+#prev,#new{
+  margin-left: 5%;
+
+}
+
+input[type=file]::file-selector-button {
+  border: 2px solid  #5f90a5;
+  padding: .2em .4em;
+  border-radius: .2em;
+  background-color: #5f90a5;
+  transition: 1s;
+}
+
+input[type=file]::file-selector-button:hover {
+  background-color: #4384a0;
+  border: 2px solid #74c2e4;
+}
+h1,h2{
+  margin-left: 20px;;
+  
+}
+
+.welcome{
+  width: 250px; 
+  border: 1px solid #5f90a5  ;
+  border-radius: 4px;
+  border-width: 5px;
+  text-align: center;
+  background-color: #5f90a5;
+  color: #ebebeb;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 10px;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+
+/* Twitter */
+.fa-twitter {
+  
+  color: white;
+}
+
+.fa-instagram{
+
+color: white;
+}
+
+h1,h2{
+  margin-left: 20px;;
+}
+p{
+  background-color: #5f90a5;
+}
+
+
+
+
+.progress {
+  background-color: #E5E3C9;
+}
+
+.approved {
+  background-color: #B4CFB0;
+}
+
+
+.declined {
+  background: #d2d2d2;
+  color: #575757;
+  /* text-decoration: line-through; */
+  opacity: 0.3;
+}
+
+.green-col th {
+  background-color: #019267;
+  padding: 15px;
+  color: white;
+  font-size: 18px;
+  font-family: system-ui;
+}
+
+
+.container-fluid{
+  background-color: #d6e5f3;
+
+}
+
+

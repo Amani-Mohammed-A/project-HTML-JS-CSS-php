@@ -1,0 +1,38 @@
+footer {
+    margin-top: 200px;
+    text-align: center;
+  background:  #5f90a5;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+ 
+
+  }
+  
+  footer ul {
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid rgba(250,250,250,0.15);
+    font-size: 30px;
+  }
+  
+  footer ul.social-icons li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  footer ul.social-icons li:after {
+    content: "|";
+    color: #fff;
+    margin-left: 30px;
+      display: inline-block;
+  }
+  footer ul.social-icons li:last-child::after {
+    display: none;
+  }
+  footer ul.social-icons li a {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+  }

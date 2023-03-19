@@ -1,0 +1,198 @@
+/* Style the header with a grey background and some padding */
+.header {/*breadcrunb*/
+  overflow: hidden;
+  background-color:  #5f90a5;
+  padding: 7px 7px;
+  justify-content: baseline;
+}
+ 
+.container{/*bacground picture*/
+ 
+  position: absolute;
+  
+  top:50%;
+  
+  left: 20%;
+  
+  right: 20%;}
+ 
+.login100-form-btn:hover {
+  color: #fff;
+}
+.login100-form-btn:hover:before {
+  opacity: 0;
+}
+body{
+height: 100%;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  
+}
+a {
+color: #1707ff;
+font-size: 14px;
+line-height: 1.7;
+margin: 0px;
+transition: all 0.4s;
+-webkit-transition: all 0.4s;
+-o-transition: all 0.4s;
+-moz-transition: all 0.4s;
+}
+p {
+font-size: 14px;
+line-height: 1.7;
+margin: 0px;
+}
+input {
+outline: none;
+border: none;
+}
+textarea:focus, input:focus {
+border-color: transparent !important;
+}/*placeholder of file number and phone*/
+input::-webkit-input-placeholder { color: #fff;}
+input:-moz-placeholder { color: #fff;}
+textarea::-webkit-input-placeholder { color: #fff;}
+textarea:-moz-placeholder { color: #fff;}
+textarea:-ms-input-placeholder { color: #fff;}
+ 
+.limiter {
+width: 100%; 
+margin: 0 auto; 
+}
+ 
+.container-login100 {/*bacground picture*/
+width: 100%;  
+min-height: 100vh;
+display: -webkit-box;
+display: -webkit-flex;
+display: -moz-box;
+display: -ms-flexbox;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+padding: 15px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+position: relative;
+z-index: 1;  
+}
+.wrap-login100 {/*مربع*/
+width: 500px;
+border-radius: 0px;
+overflow: hidden;
+padding: 55px 55px 37px 55px;
+border-radius: 20px;
+background: #9152f8;
+background: -webkit-linear-gradient(top,   #5f90a5, #5f90a5);
+background: -o-linear-gradient(top,   #5f90a5, #5f90a5);     
+background: -moz-linear-gradient(top, #5f90a5, #5f90a5);
+background: linear-gradient(top,   #5f90a5, #5f90a5);
+}
+/*------------------------------------------------------------------
+[ Form ]*/
+.login100-form {
+width: 100%;
+}
+.login100-form-title {
+font-size: 30px;
+color: #fff;
+line-height: 1.2;
+text-align: center;
+text-transform: uppercase;
+ 
+display: block;
+}
+ 
+/*------------------------------------------------------------------
+[ Input ]*/
+ 
+.wrap-input100 {
+width: 100%;
+position: relative;
+border-bottom: 2px solid rgba(255,255,255,0.24);
+margin-bottom: 30px;
+}
+ 
+.input100 {
+font-size: 16px;
+color: #fff;
+line-height: 1.2;
+ 
+display: block;
+width: 100%;
+height: 45px;
+background: transparent;
+padding: 0 5px 0 0px;
+}
+/*---------------------------------------------start*/ 
+.focus-input100 {
+position: absolute;
+display: block;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+pointer-events: none;
+}
+/*------------------------------------------------------------------
+[ Button ]*/
+.container-login100-form-btn {
+width: 100%;
+display: -webkit-box;
+display: -webkit-flex;
+display: -moz-box;
+display: -ms-flexbox;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.login100-form-btn {
+font-size: 16px;
+color: #555555;
+line-height: 1.2;
+display: -webkit-box;
+display: -webkit-flex;
+display: -moz-box;
+display: -ms-flexbox;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0 20px;
+min-width: 120px;
+height: 50px;
+border-radius: 25px;
+background: #9152f8;
+background: -webkit-linear-gradient(bottom, #adc7d1, #adc7d1); /*  #001F30 log in button old color: #7579ff*/
+background: -o-linear-gradient(bottom, #adc7d1, #adc7d1);
+background: -moz-linear-gradient(bottom, #adc7d1, #adc7d1);
+background: linear-gradient(bottom, #adc7d1, #adc7d1);
+position: relative;
+z-index: 1;
+-webkit-transition: all 0.4s;
+-o-transition: all 0.4s;
+-moz-transition: all 0.4s;
+transition: all 0.4s;
+}
+.container-fluid{
+  background-color: #d6e5f3;
+ 
+}
+ul.breadcrumb {
+padding: 6px 16px;
+list-style: none;
+background-color: lightgrey;
+text-align:left;
+width:100%;
+margin-bottom:-3px;
+}
+ul.breadcrumb li {
+display: inline;
+font-size: 15px;
+text-align:left;
+}
+ul.breadcrumb li+li:before {
+padding: 8px;
+color: black;
+content: ">\00a0";}
